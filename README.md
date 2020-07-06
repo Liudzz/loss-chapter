@@ -6,7 +6,7 @@
 * pytorch-cpu 1.1.0
 * tensorboardX 1.7
 
-##文件介绍与注意
+## 文件介绍与注意
 实验序号为本章节中对应实验序号，实验四即损失函数对比实验。center loss参考[这里](https://github.com/KaiyangZhou/pytorch-center-loss/blob/master/center_loss.py),
 focal loss参考[这里](https://blog.csdn.net/qq_33278884/article/details/91572173)。<br/>
 losses文件夹中的损失函数可用于实验二三四中，需将其放在对应文件夹下。<br>
