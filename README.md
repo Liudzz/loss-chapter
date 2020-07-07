@@ -29,7 +29,7 @@ If something wrong happens,you can download by clicking the links above.
   
 #### Reference
 This project absorded essences of other project on github and other websites.<br/>
-Sources of part exp2 are miss.<br/>
+Sources of part exp2 are missing.<br/>
 
 | _ours_ | losses\center_loss.py | losses\Focalloss.py | exp1\train.py | exp4 | EfficientNet-b0 model
 | :-----:| :----:| :----:| :----:| :----:| :----:|
@@ -42,7 +42,7 @@ All experiments follow deep learning pipeline:
 * loss function ,parameters and optimizer set 
 * run model and get results<br/>
 <br/>
-And:
+And:<br/>
 * For exp1,you can run directly.If you want to see the result of one particular loss ,you can make other losses invisible by "#" at visulization part.
 * For exp2 exp3 and exp4,some mecessary files like _"data"_ can be made by programes.You must download dataset and put them on right dictionary assigned by programs.
 * For different losses comparasion in different experiments,you can copy the code file and tune hyperparameters and change loss functions.
