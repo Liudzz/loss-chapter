@@ -17,6 +17,7 @@ I add _all_lost.py_ including all lost function we may used in all project.You c
 | _experiment_ | exp1 | exp2 | exp3 | exp4|
 | :------:| :---:| :---:| :---:| :---: |
 | _dataset_| toy data included in code| [MNIST](http://yann.lecun.com/exdb/mnist/)| build it yourself| [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html)|
+
 You can make your own dataset in exp3,pay attention to the ratio of two catagories.<br/>
 You can download MNIST and CIFAR through torchversion.datasets,we have set _download_ = _True_ in exp2.<br/>
 If something wrong happens,you can download by clicking the links above.
@@ -28,7 +29,7 @@ If something wrong happens,you can download by clicking the links above.
   
 #### Reference
 This project absorded essences of other project on github and other websites.<br/>
-Source of part exp2 is miss.<br/>
+Sources of part exp2 are miss.<br/>
 
 | _ours_ | losses\center_loss.py | losses\Focalloss.py | exp1\train.py | exp4 | EfficientNet-b0 model
 | :-----:| :----:| :----:| :----:| :----:| :----:|
@@ -41,6 +42,7 @@ All experiments follow deep learning pipeline:
 * loss function ,parameters and optimizer set 
 * run model and get results<br/>
 <br/>
+And:
 * For exp1,you can run directly.If you want to see the result of one particular loss ,you can make other losses invisible by "#" at visulization part.
 * For exp2 exp3 and exp4,some mecessary files like _"data"_ can be made by programes.You must download dataset and put them on right dictionary assigned by programs.
 * For different losses comparasion in different experiments,you can copy the code file and tune hyperparameters and change loss functions.
