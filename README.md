@@ -8,7 +8,8 @@ This is my experiment enviroument,you can make a change according to your hardwa
 * tensorboardX 1.7
 
 ## Introduction
-File "losses" contains loss functions can be used in exp2,exp3 and exp4.You must copy them to the your working file<br/>
+File "losses" contains loss functions can be used in exp2,exp3 and exp4.You must copy them to the your working file.<br/>
+_"all_lost.py"_ in file "losses" contains all loss we may use in this project,you can use them by importing.Be careful,you must put other losses with it together.<br/>
 File "exp1","exp2","exp3" and "exp4" include main code of each experiment.<br/>
 "Exp4" is loss functions comparison experiment."1" is vgg model and "2" is EfficientNet model.<br/>
 I add _all_lost.py_ including all lost function we may used in all project.You can have a look at functions and use them.Make sure you also have two other losses.
@@ -51,5 +52,5 @@ And:
 ##
 _There maybe something incorrect unrealized before,I will be grateful if you can point out._
 
-__Copyright: This work was designed by Prof. Chongsheng Zhang (chongsheng.zhang@yahoo.com)<br/>And implemented by Mr. Dazheng Liu (liudz@henu.edu.cn), a master student of Henan University under the supervision of Prof. Zhang.__<br/>
+__Copyright: This work was designed by Prof. Chongsheng Zhang (chongsheng.zhang@yahoo.com)<br/>Implemented by Mr. Dazheng Liu (liudz@henu.edu.cn), a master student of Henan University under the supervision of Prof. Zhang.__<br/>
 __This software is free for academic use only. For commercial companies, you should first ask the permission from both authors above.__ 
